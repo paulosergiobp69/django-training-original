@@ -1,0 +1,1 @@
+web: gunicorn xpence_project.wsgi:application

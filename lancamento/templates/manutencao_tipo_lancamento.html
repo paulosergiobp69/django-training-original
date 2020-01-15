@@ -1,0 +1,17 @@
+<!doctype html>
+ <html>
+     <header>
+
+     </header>
+     <body>
+        <form method="post">{% csrf_token %}
+          <div>
+            <label for="descricao">Descrição:</label>
+            <input type="text" name="descricao">
+        </div>
+        <div>
+          <input type="submit"  value="Save">
+        </div>            
+        </form>
+     </body>
+ </html>

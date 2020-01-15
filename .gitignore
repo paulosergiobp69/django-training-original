@@ -1,0 +1,10 @@
+.pytest_cache/*
+__pycache__/
+.*.swp
+
+.vscode/launch.json
+.vscode/
+autenticacao/publisher.py
+consumer.py
+.venv/
+staticfiles/

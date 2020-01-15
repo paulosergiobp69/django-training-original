@@ -1,0 +1,11 @@
+--build new image
+docker build -t xpence-prd --no-cache .
+
+--start container
+sudo docker run -d -p 8000:8000 --name xpence-prd xpence-prd:latest
+
+--stop container
+sudo docker xpence-prd stop
+
+--remove container
+sudo docker rm xpence-prd
